@@ -40,20 +40,22 @@ Permite usar a classe base para trabalhar com diferentes filhas de forma genéri
 
 ✅ Design Patterns (Padrões de Projeto)
 <br />
-1_ Singleton
+1_ Singleton - Apenas uma instância de uma classe em todo o sistema.
 
-2_ Factory / Abstract Factory
+2_ Factory/Abstract Factory - 
+Factory → Cria objetos com base em lógica
+Abstract Factory → Cria famílias de objetos relacionados
 
-3_ Strategy
+3_ Strategy - Troca ações em tempo de execução.
 
-4_ Observer
+4_ Observer - Notificação de objetos quando algo muda.
 
-5_ Decorator
+5_ Decorator - Adiciona funcionalidades a um objeto sem mudar sua estrutura.
 
-6_ Builder
+6_ Builder - Constrói objetos passo a passo.
 
 ✅ Architectural Patterns
 <br />
-1_ Clean Architecture
+1_ Clean Architecture - Divide o sistema em camadas com dependência invertida:
 
-2_ CQRS
+2_ CQRS - Separa leitura (Query) de escrita (Command)
