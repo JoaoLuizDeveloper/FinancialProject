@@ -40,46 +40,40 @@ Permite usar a classe base para trabalhar com diferentes filhas de forma genéri
 ✅ Principais Patterns no C#
 1. Type Pattern – Verifica tipo + atribui
 <br />
-<br />
 if (obj is string s)
 {
     Console.WriteLine($"É uma string com valor: {s}");
 }
-
-2. Constant Pattern – Compara com valor constante
 <br />
+2. Constant Pattern – Compara com valor constante
 <br />
 if (x is 0)
 {
     Console.WriteLine("x é zero");
 }
-
-3. Relational Pattern – Comparações relacionais
 <br />
+3. Relational Pattern – Comparações relacionais
 <br />
 if (idade is > 18 and < 60)
 {
     Console.WriteLine("Adulto em idade ativa");
 }
-
-4. Logical Pattern – Combinação com and, or, not
 <br />
+4. Logical Pattern – Combinação com and, or, not
 <br />
 if (valor is >= 10 and <= 20)
 {
     Console.WriteLine("Dentro do intervalo");
 }
-
-5. Property Pattern – Avalia propriedades de objetos
 <br />
+5. Property Pattern – Avalia propriedades de objetos
 <br />
 if (pessoa is { Nome: "João", Idade: > 18 })
 {
     Console.WriteLine("É João maior de idade");
 }
-
-6. Positional Pattern – Usado com deconstruct
 <br />
+6. Positional Pattern – Usado com deconstruct
 <br />
 record Ponto(int X, int Y);
 var p = new Ponto(3, 4);
@@ -87,10 +81,8 @@ if (p is (0, 0)) // Desconstrói e compara
 {
     Console.WriteLine("Origem");
 }
-
-
-7. Switch Expression Pattern – Expressivo e enxuto
 <br />
+7. Switch Expression Pattern – Expressivo e enxuto
 <br />
 string Categoria(int idade) => idade switch
 {
