@@ -38,19 +38,22 @@ Permite usar a classe base para trabalhar com diferentes filhas de forma genéri
 <br />
 <br />
 
-
-✅ Principais Patterns no C#
+✅ Design Patterns (Padrões de Projeto)
 <br />
-1_ Type Pattern – Verifica tipo + atribuição automática
+1_ Singleton
 
-2_ Constant Pattern – Compara com valor constante
+2_ Factory / Abstract Factory
 
-3_ Relational Pattern – Comparações relacionais (>, <, >=, <=)
+3_ Strategy
 
-4_ Logical Pattern – Combinação com and, or, not
+4_ Observer
 
-5_ Property Pattern – Avalia propriedades de objetos
+5_ Decorator
 
-6_ Positional Pattern – Usado com deconstruct (ex: record, tuple)
+6_ Builder
 
-7_ Switch Expression Pattern – Expressivo e enxuto, ideal para categorizações
+✅ Architectural Patterns
+<br />
+1_ Clean Architecture
+
+2_ CQRS
