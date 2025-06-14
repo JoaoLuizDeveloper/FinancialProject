@@ -39,17 +39,18 @@ Permite usar a classe base para trabalhar com diferentes filhas de forma genéri
 <br />
 
 
-#✅ Principais Patterns no C#
-Type Pattern – Verifica tipo + atribuição automática
+✅ Principais Patterns no C#
+<br />
+1_ Type Pattern – Verifica tipo + atribuição automática
 
-Constant Pattern – Compara com valor constante
+2_ Constant Pattern – Compara com valor constante
 
-Relational Pattern – Comparações relacionais (>, <, >=, <=)
+3_ Relational Pattern – Comparações relacionais (>, <, >=, <=)
 
-Logical Pattern – Combinação com and, or, not
+4_ Logical Pattern – Combinação com and, or, not
 
-Property Pattern – Avalia propriedades de objetos
+5_ Property Pattern – Avalia propriedades de objetos
 
-Positional Pattern – Usado com deconstruct (ex: record, tuple)
+6_ Positional Pattern – Usado com deconstruct (ex: record, tuple)
 
-Switch Expression Pattern – Expressivo e enxuto, ideal para categorizações
+7_ Switch Expression Pattern – Expressivo e enxuto, ideal para categorizações
