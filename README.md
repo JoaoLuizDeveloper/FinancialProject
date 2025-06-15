@@ -37,3 +37,5 @@ Garante que todas as filhas sigam um padrão comum e compartilhem lógica base.
 Permite usar a classe base para trabalhar com diferentes filhas de forma genérica.
 <br />
 <br />
+
+## Video: https://www.youtube.com/watch?v=krRKGG_Vrm0&t=1s
