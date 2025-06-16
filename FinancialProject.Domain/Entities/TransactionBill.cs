@@ -2,13 +2,13 @@ using FinancialProject.Domain.Entities.Abstractions;
 
 namespace FinancialProject.Domain.Entities
 {
-    // A classe TransactionBill esta herdando da classe Transaction, que é abstrata 
-    // Como se ela pertencesse a classe Transaction
+    // The TransactionBill class inherits from the abstract class Transaction
+    // As if it belongs to the Transaction class
     public class TransactionBill : Transaction
     {
         public string Barcode { get; set; } = string.Empty;
 
-        // Gerando a descrição da transação de pagamento de conta
+        // Generating the description for the bill payment transaction
         public override string Description()
         {
             return $"Payment of Bill: {Barcode}, Value: {Value:C}";

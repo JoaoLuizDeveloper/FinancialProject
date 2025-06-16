@@ -4,10 +4,10 @@ namespace FinancialProject.Domain.Entities.Abstractions
     {
         public decimal Value { get; set; }
 
-        // Declarando metodo abstrato que deve ser implementado nas classes filhas
+        // Declaring an abstract method that must be implemented in the derived classes
         public abstract string Description();
 
-        // Gerando um método virtual para retornar um resumo da transação
+        // Creating a virtual method to return a summary of the transaction
         public virtual string Resume()
         {
             return $"Value of Transaction: {Value:C}";

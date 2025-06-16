@@ -15,8 +15,8 @@ namespace FinancialProject.API.Controllers
         [HttpGet("ListTransactions")]
         public IActionResult ListTransactions()
         {
-            // Usando a classe base Transaction como tipo de referência
-            // Consigo trabalhar com as classes filhas TransactionPix e TransactionBill
+            // Using the base class Transaction as a reference type
+            // I can work with the derived classes TransactionPix and TransactionBill
             HashSet<Transaction> transactions = new()
             {
                 new TransactionPix { Value = 150, Key = "joaoluizdeveloper@gmail.com", DescriptionPix= "Pix are a payment method exclusive from Brazil!" },
