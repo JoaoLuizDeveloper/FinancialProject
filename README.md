@@ -39,3 +39,5 @@ Permite usar a classe base para trabalhar com diferentes filhas de forma genéri
 <br />
 
 ## Video: https://www.youtube.com/watch?v=krRKGG_Vrm0&t=1s
+
+## Video ENGLISH: https://youtu.be/9X_GpdSLcLQ
